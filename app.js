@@ -7,6 +7,13 @@ app.use(express.urlencoded({ extended: true}))
 const productos = new ProductManager()
 const readProducts = await productos.readProducts()
 
+app.get('/products/:id', async (req, res) =>{
+  let id = parseInt(req.params.id)
+  //console.log(id);
+  let allProducts = await readProducts
+  let productById = allProducts.find(product => product.id === id)
+  res.send(productById)
+})
 
  app.get('/products', async (req, res) => {
     let limit = parseInt(req.query.limit);
@@ -18,16 +25,10 @@ const readProducts = await productos.readProducts()
    //const readProducts = await productos.readProducts()
  })
 
- app.get('/products/:id', async (req, res) =>{
-   let id = parseInt(req.params.id)
-   //console.log(id);
-   let allProducts = await readProducts
-   let productById = allProducts.find(product => product.id === id)
-   res.send(productById)
- })
- 
-    
 
+ 
+ 
+  
 app.listen(8080, () => {
     console.log('escuchando en el puerto 8080');
 })
