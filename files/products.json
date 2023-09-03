@@ -1,0 +1,92 @@
+[
+    {
+        "title":"titutlo1",
+        "description":"description1",
+        "price":100,
+        "image":"image1",
+        "code":"code1",
+        "stock":10,
+        "id":1
+    },
+    {
+        "title":"titutlo2",
+        "description":"description2",
+        "price":100,
+        "image":"image2",
+        "code":"code2",
+        "stock":10,
+        "id":2
+    },
+    {
+        "title":"titutlo3",
+        "description":"description3",
+        "price":100,
+        "image":"image3",
+        "code":"code3",
+        "stock":10,
+        "id":3
+    },
+    {
+        "title": "titutlo4",
+        "description": "description4",
+        "price": 100,
+        "image": "image4",
+        "code": "code4",
+        "stock": 10,
+        "id": 4
+    },
+    {
+        "title": "titutlo5",
+        "description": "description5",
+        "price": 100,
+        "image": "image5",
+        "code": "code5",
+        "stock": 10,
+        "id": 5
+    },
+   {
+        "title": "titutlo6",
+        "description": "description6",
+        "price": 100,
+        "image": "image6",
+        "code": "code6",
+        "stock": 10,
+        "id": 6
+    },
+    {
+        "title": "titutlo7",
+        "description": "description7",
+        "price": 100,
+        "image": "image7",
+        "code": "code7",
+        "stock": 10,
+        "id": 7
+    },
+    {
+        "title": "titutlo8",
+        "description": "description8",
+        "price": 100,
+        "image": "image8",
+        "code": "code8",
+        "stock": 10,
+        "id": 8
+    },
+    {
+        "title": "titutlo9",
+        "description": "description9",
+        "price": 100,
+        "image": "image9",
+        "code": "code9",
+        "stock": 10,
+        "id": 9
+    },
+    {
+        "title": "titutlo10",
+        "description": "description10",
+        "price": 100,
+        "image": "image10",
+        "code": "code10",
+        "stock": 10,
+        "id": 10
+    }
+]

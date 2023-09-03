@@ -1,0 +1,25 @@
+GET http://localhost:8080/bienvenido
+
+###
+
+GET http://localhost:8080/users
+
+###
+
+GET http://localhost:8080/params/1123456
+
+###
+GET http://localhost:8080/users/Beatriz/Suyo
+
+###
+GET http://localhost:8080/query
+###
+GET  http://localhost:8080/
+###
+GET http://localhost:8080/query?nombre=fede&apellido=osandon
+###
+GET  http://localhost:8080/products
+###
+GET http://localhost:8080/products/?limit=5
+###
+GET http://localhost:8080/products/?limit=5
