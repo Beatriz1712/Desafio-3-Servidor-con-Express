@@ -31,7 +31,7 @@ export default class ProductManager {
     //crea y escribe
     await fs.writeFile(this.path, JSON.stringify(this.products))
   }
-  //leer y transformar
+   //lee y transforma
   readProducts = async () => {
     let respuesta = await fs.readFile(this.path, "utf-8")
     return JSON.parse(respuesta)
